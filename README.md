@@ -28,27 +28,27 @@ List the objects your model was trained to identify:
    
     The easiest objects for the model to learn were those with very distinct visual features, such as unique shapes or colors. These stood out clearly and were easier for the model to recognize.
 
-The most challenging objects were items that looked similar or appeared in similar environments, such as desk items like keyboards, phones, and other objects. Because they shared similar shapes and backgrounds, the model had difficulty telling them apart.
+    The most challenging objects were items that looked similar or appeared in similar environments, such as desk items like keyboards, phones, and other objects. Because they shared similar shapes and backgrounds, the model had difficulty telling them apart.
 
-When I showed the model an object it was not trained on, it still tried to classify it as one of the known categories. For example, when I added a person, my coworker Jakob, the model identified him but also incorrectly labeled objects like a phone even when none was present. The confidence scores were sometimes high even when the prediction was wrong. This is significant because it shows that the model does not understand when it is incorrect and will always choose the closest match.
+    When I showed the model an object it was not trained on, it still tried to classify it as one of the known categories. For example, when I added a person, my coworker Jakob, the model identified him but also incorrectly labeled objects like a phone even when none was present. The confidence scores were sometimes high even when the prediction was wrong. This is significant because it shows that the model does not understand when it is incorrect and will always choose the closest match.
 
 3.  **Bias in AI:**
    
     If I only trained the mug class using images of my specific mug, the model would not perform well when identifying other mugs. It would likely only recognize mugs that look very similar to mine. This demonstrates how bias can be introduced when training data is too limited or not diverse.
 
-If all training images were taken in bright lighting, the model would likely perform poorly in dim lighting or with shadows. This shows that the model is not robust and can be biased toward the conditions it was trained in. Without variation, the model cannot generalize well to new situations.
+    If all training images were taken in bright lighting, the model would likely perform poorly in dim lighting or with shadows. This shows that the model is not robust and can be biased toward the conditions it was trained in. Without variation, the model cannot generalize well to new situations.
 
 4.  **Model Limitations & Usefulness:**
     
     Some key limitations of my model include its reliance on small and inconsistent datasets, its sensitivity to background and lighting, and its inability to recognize objects outside its training data. It also struggles with similar looking objects and can give high confidence predictions even when incorrect.
 
-Downloading the trained model files is useful because it allows the model to be shared and reused. Files like model.json and weights.bin contain the learned patterns, which means the model can be used in other applications without retraining. This enables deployment in websites, apps, or further experimentation.
+    Downloading the trained model files is useful because it allows the model to be shared and reused. Files like model.json and weights.bin contain the learned patterns, which means the model can be used in other applications without retraining. This enables deployment in websites, apps, or further experimentation.
 
 5.  **Real-World Applications & Ethics:**
    
     One real world application of image classification is in recycling systems, where objects can be sorted automatically based on their material. Another application is in retail, where items can be recognized for automatic checkout. A third example is assistive technology that helps visually impaired individuals identify objects around them.
 
-One important ethical consideration is fairness. If the training data is not diverse, the model may perform poorly for certain groups or environments. This can lead to biased or unreliable outcomes, so it is important to carefully design and test AI systems before using them in real world situations.
+    One important ethical consideration is fairness. If the training data is not diverse, the model may perform poorly for certain groups or environments. This can lead to biased or unreliable outcomes, so it is important to carefully design and test AI systems before using them in real world situations.
 
 ## (Optional) Challenges Faced / Interesting Discoveries
 
