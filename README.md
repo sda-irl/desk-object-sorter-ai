@@ -20,9 +20,9 @@ List the objects your model was trained to identify:
 
     My first trained model had only 3 classes and was pretty accurate. It could only correctly identify the objects it was trained on in very specific situations and often failed when the images looked slightly different.
 
-To improve the model, I added more images and classes and tried to include more variation for each class, such as different desks and angles. However, instead of improving performance, this actually made the model more confused. The accuracy decreased and the confidence scores became less reliable.
+    To improve the model, I added more images and classes and tried to include more variation for each class, such as different desks and angles. However, instead of improving performance, this actually made the model more confused. The accuracy decreased and the confidence scores became less reliable.
 
-These changes likely made the model worse because the added images introduced too much variation without enough clear distinction between classes. The model may have started focusing on background features like desks instead of the actual objects.
+    These changes likely made the model worse because the added images introduced too much variation without enough clear distinction between classes. The model may have started focusing on background features like desks instead of the actual objects.
 
 2.  **Challenges & Observations:**
    
