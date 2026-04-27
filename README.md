@@ -1,7 +1,7 @@
 # desk-object-sorter-ai
 
 ## Project Description
-A brief (1-2 sentence) description of your project. For example: "This project uses Google's Teachable Machine to classify common objects found on my desk."
+This project uses Teachable Machine to train an image classification model that identifies common desk objects such as keyboards, monitors, and other items. It explores how changes in training data affect the model’s accuracy, consistency, and ability to generalize across different environments.
 
 ## Classes Identified
 List the objects your model was trained to identify:
